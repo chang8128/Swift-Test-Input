@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0445474C291BABCA00DDCA20 /* StepColorChange2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445474B291BABCA00DDCA20 /* StepColorChange2.swift */; };
 		046E53DE2919EF8A00B8684A /* TestInputApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E53DD2919EF8A00B8684A /* TestInputApp.swift */; };
 		046E53E02919EF8A00B8684A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E53DF2919EF8A00B8684A /* ContentView.swift */; };
 		046E53E22919EF8C00B8684A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046E53E12919EF8C00B8684A /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 		046E540E291A3E9600B8684A /* SelectDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E540D291A3E9600B8684A /* SelectDate.swift */; };
 		046E5410291A3FF900B8684A /* CreateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E540F291A3FF900B8684A /* CreateList.swift */; };
 		046E5412291A44F900B8684A /* TestInputNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E5411291A44F900B8684A /* TestInputNumber.swift */; };
+		046E5414291A674F00B8684A /* TestInputNumber2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E5413291A674F00B8684A /* TestInputNumber2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0445474B291BABCA00DDCA20 /* StepColorChange2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepColorChange2.swift; sourceTree = "<group>"; };
 		046E53DA2919EF8A00B8684A /* TestInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		046E53DD2919EF8A00B8684A /* TestInputApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInputApp.swift; sourceTree = "<group>"; };
 		046E53DF2919EF8A00B8684A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 		046E540D291A3E9600B8684A /* SelectDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDate.swift; sourceTree = "<group>"; };
 		046E540F291A3FF900B8684A /* CreateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateList.swift; sourceTree = "<group>"; };
 		046E5411291A44F900B8684A /* TestInputNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInputNumber.swift; sourceTree = "<group>"; };
+		046E5413291A674F00B8684A /* TestInputNumber2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInputNumber2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +113,10 @@
 				046E5409291A38EB00B8684A /* TestView.swift */,
 				046E540D291A3E9600B8684A /* SelectDate.swift */,
 				046E540B291A3DAE00B8684A /* StepColorChange.swift */,
+				0445474B291BABCA00DDCA20 /* StepColorChange2.swift */,
 				046E540F291A3FF900B8684A /* CreateList.swift */,
 				046E5411291A44F900B8684A /* TestInputNumber.swift */,
+				046E5413291A674F00B8684A /* TestInputNumber2.swift */,
 				046E53E12919EF8C00B8684A /* Assets.xcassets */,
 				046E53E32919EF8C00B8684A /* Preview Content */,
 			);
@@ -274,8 +280,10 @@
 			files = (
 				046E540A291A38EB00B8684A /* TestView.swift in Sources */,
 				046E540C291A3DAE00B8684A /* StepColorChange.swift in Sources */,
+				0445474C291BABCA00DDCA20 /* StepColorChange2.swift in Sources */,
 				046E53E02919EF8A00B8684A /* ContentView.swift in Sources */,
 				046E540E291A3E9600B8684A /* SelectDate.swift in Sources */,
+				046E5414291A674F00B8684A /* TestInputNumber2.swift in Sources */,
 				046E53DE2919EF8A00B8684A /* TestInputApp.swift in Sources */,
 				046E5410291A3FF900B8684A /* CreateList.swift in Sources */,
 				046E5412291A44F900B8684A /* TestInputNumber.swift in Sources */,

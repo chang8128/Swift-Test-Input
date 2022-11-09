@@ -9,6 +9,7 @@ import SwiftUI
 
 struct StepColorChange: View {
     @State private var value = 0
+    
     let colors: [Color] = [.orange, .red, .gray, .blue, .green, .purple, .pink]
 
     func incrementStep() {
@@ -24,16 +25,29 @@ struct StepColorChange: View {
 
     
     var body: some View {
-        // 根据步进改变值，并随之而改变颜色
-        Stepper {
-            Text("Value: \(value) Color: \(colors[value].description)")
-        } onIncrement: {
-            incrementStep()
-        } onDecrement: {
-            decrementStep()
-        }
-        .padding(5)
+        // change color with value stepper
+        VStack {
+            Stepper {
+                Text("Value: \(value) Color: \(colors[value].description)")
+            } onIncrement: {
+                incrementStep()
+            } onDecrement: {
+                decrementStep()
+            }
+            .padding(5)
         .background(colors[value])
+            
+            Stepper {
+                Text("Value: \(value) Color: \(colors[value].description)")
+            } onIncrement: {
+                incrementStep()
+            } onDecrement: {
+                decrementStep()
+            }
+            .padding(5)
+        .background(colors[value])
+        
+        }
     }
 }
 
