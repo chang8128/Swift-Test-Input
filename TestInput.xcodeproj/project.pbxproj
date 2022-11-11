@@ -21,6 +21,9 @@
 		046E5410291A3FF900B8684A /* CreateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E540F291A3FF900B8684A /* CreateList.swift */; };
 		046E5412291A44F900B8684A /* TestInputNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E5411291A44F900B8684A /* TestInputNumber.swift */; };
 		046E5414291A674F00B8684A /* TestInputNumber2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E5413291A674F00B8684A /* TestInputNumber2.swift */; };
+		04E35275291E3A72002F8056 /* StepColorChange3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E35274291E3A72002F8056 /* StepColorChange3.swift */; };
+		04E35277291E5E89002F8056 /* SwiftUICalculateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E35276291E5E89002F8056 /* SwiftUICalculateTest.swift */; };
+		04E35279291E6237002F8056 /* StudyTotals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E35278291E6237002F8056 /* StudyTotals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		046E540F291A3FF900B8684A /* CreateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateList.swift; sourceTree = "<group>"; };
 		046E5411291A44F900B8684A /* TestInputNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInputNumber.swift; sourceTree = "<group>"; };
 		046E5413291A674F00B8684A /* TestInputNumber2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInputNumber2.swift; sourceTree = "<group>"; };
+		04E35274291E3A72002F8056 /* StepColorChange3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepColorChange3.swift; sourceTree = "<group>"; };
+		04E35276291E5E89002F8056 /* SwiftUICalculateTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICalculateTest.swift; sourceTree = "<group>"; };
+		04E35278291E6237002F8056 /* StudyTotals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyTotals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +120,11 @@
 				046E540D291A3E9600B8684A /* SelectDate.swift */,
 				046E540B291A3DAE00B8684A /* StepColorChange.swift */,
 				0445474B291BABCA00DDCA20 /* StepColorChange2.swift */,
+				04E35274291E3A72002F8056 /* StepColorChange3.swift */,
 				046E540F291A3FF900B8684A /* CreateList.swift */,
 				046E5411291A44F900B8684A /* TestInputNumber.swift */,
+				04E35276291E5E89002F8056 /* SwiftUICalculateTest.swift */,
+				04E35278291E6237002F8056 /* StudyTotals.swift */,
 				046E5413291A674F00B8684A /* TestInputNumber2.swift */,
 				046E53E12919EF8C00B8684A /* Assets.xcassets */,
 				046E53E32919EF8C00B8684A /* Preview Content */,
@@ -279,7 +288,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				046E540A291A38EB00B8684A /* TestView.swift in Sources */,
+				04E35277291E5E89002F8056 /* SwiftUICalculateTest.swift in Sources */,
+				04E35275291E3A72002F8056 /* StepColorChange3.swift in Sources */,
 				046E540C291A3DAE00B8684A /* StepColorChange.swift in Sources */,
+				04E35279291E6237002F8056 /* StudyTotals.swift in Sources */,
 				0445474C291BABCA00DDCA20 /* StepColorChange2.swift in Sources */,
 				046E53E02919EF8A00B8684A /* ContentView.swift in Sources */,
 				046E540E291A3E9600B8684A /* SelectDate.swift in Sources */,
