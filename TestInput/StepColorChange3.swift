@@ -28,6 +28,7 @@ struct StepColorChange3: View {
     
     
     var body: some View {
+//        var testCalculate = values.last - values.first
         
         VStack {
             //            Text("stepper(0): \(values[0])")

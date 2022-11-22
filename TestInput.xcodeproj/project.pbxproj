@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042342E1292B17E200F453B2 /* StoryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042342E0292B17E200F453B2 /* StoryModels.swift */; };
+		042372ED292A30E9003FD81D /* TestForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042372EC292A30E9003FD81D /* TestForEach.swift */; };
+		042372EF292A424F003FD81D /* TestNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042372EE292A424F003FD81D /* TestNavigation.swift */; };
 		0445474C291BABCA00DDCA20 /* StepColorChange2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445474B291BABCA00DDCA20 /* StepColorChange2.swift */; };
 		046E53DE2919EF8A00B8684A /* TestInputApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E53DD2919EF8A00B8684A /* TestInputApp.swift */; };
 		046E53E02919EF8A00B8684A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E53DF2919EF8A00B8684A /* ContentView.swift */; };
@@ -24,6 +27,8 @@
 		04E35275291E3A72002F8056 /* StepColorChange3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E35274291E3A72002F8056 /* StepColorChange3.swift */; };
 		04E35277291E5E89002F8056 /* SwiftUICalculateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E35276291E5E89002F8056 /* SwiftUICalculateTest.swift */; };
 		04E35279291E6237002F8056 /* StudyTotals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E35278291E6237002F8056 /* StudyTotals.swift */; };
+		04EBC733292CB42000354320 /* TestArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBC732292CB42000354320 /* TestArray.swift */; };
+		04EBC735292CB98400354320 /* TestBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBC734292CB98400354320 /* TestBinding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042342E0292B17E200F453B2 /* StoryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryModels.swift; sourceTree = "<group>"; };
+		042372EC292A30E9003FD81D /* TestForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestForEach.swift; sourceTree = "<group>"; };
+		042372EE292A424F003FD81D /* TestNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNavigation.swift; sourceTree = "<group>"; };
 		0445474B291BABCA00DDCA20 /* StepColorChange2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepColorChange2.swift; sourceTree = "<group>"; };
 		046E53DA2919EF8A00B8684A /* TestInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		046E53DD2919EF8A00B8684A /* TestInputApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInputApp.swift; sourceTree = "<group>"; };
@@ -64,6 +72,8 @@
 		04E35274291E3A72002F8056 /* StepColorChange3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepColorChange3.swift; sourceTree = "<group>"; };
 		04E35276291E5E89002F8056 /* SwiftUICalculateTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICalculateTest.swift; sourceTree = "<group>"; };
 		04E35278291E6237002F8056 /* StudyTotals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyTotals.swift; sourceTree = "<group>"; };
+		04EBC732292CB42000354320 /* TestArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestArray.swift; sourceTree = "<group>"; };
+		04EBC734292CB98400354320 /* TestBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBinding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +136,11 @@
 				04E35276291E5E89002F8056 /* SwiftUICalculateTest.swift */,
 				04E35278291E6237002F8056 /* StudyTotals.swift */,
 				046E5413291A674F00B8684A /* TestInputNumber2.swift */,
+				042372EC292A30E9003FD81D /* TestForEach.swift */,
+				042372EE292A424F003FD81D /* TestNavigation.swift */,
+				042342E0292B17E200F453B2 /* StoryModels.swift */,
+				04EBC732292CB42000354320 /* TestArray.swift */,
+				04EBC734292CB98400354320 /* TestBinding.swift */,
 				046E53E12919EF8C00B8684A /* Assets.xcassets */,
 				046E53E32919EF8C00B8684A /* Preview Content */,
 			);
@@ -287,12 +302,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042342E1292B17E200F453B2 /* StoryModels.swift in Sources */,
 				046E540A291A38EB00B8684A /* TestView.swift in Sources */,
+				04EBC735292CB98400354320 /* TestBinding.swift in Sources */,
 				04E35277291E5E89002F8056 /* SwiftUICalculateTest.swift in Sources */,
 				04E35275291E3A72002F8056 /* StepColorChange3.swift in Sources */,
 				046E540C291A3DAE00B8684A /* StepColorChange.swift in Sources */,
 				04E35279291E6237002F8056 /* StudyTotals.swift in Sources */,
+				042372EF292A424F003FD81D /* TestNavigation.swift in Sources */,
 				0445474C291BABCA00DDCA20 /* StepColorChange2.swift in Sources */,
+				042372ED292A30E9003FD81D /* TestForEach.swift in Sources */,
+				04EBC733292CB42000354320 /* TestArray.swift in Sources */,
 				046E53E02919EF8A00B8684A /* ContentView.swift in Sources */,
 				046E540E291A3E9600B8684A /* SelectDate.swift in Sources */,
 				046E5414291A674F00B8684A /* TestInputNumber2.swift in Sources */,
