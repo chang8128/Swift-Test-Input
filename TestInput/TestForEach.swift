@@ -7,21 +7,27 @@
 
 import SwiftUI
 
-struct Item: Identifiable {
-    let id = UUID()
-    var todo: String
+
+// 测试使用 id \.self 来做 ForEach 调用
+struct Staff: Hashable {
+    let name: String
 }
 
+
 struct TestForEach: View {
-    @State private var todos: [Item] = [] // 用[] 开启一个空值
+    let staffs = [Staff(name: "Harry Potter"), Staff(name: "Harry Potter"), Staff(name: "Herminoe Granger")]
     
     var body: some View {
-        Text("Text")
-        List {
-            ForEach(todos) { todoEntry in
-                Text("This is something in my list!")
-                Text("This a also in my list!")
-                Text("And another thing!")
+               
+        VStack {
+            List {
+                ForEach([2, 4, 6, 8, 10], id: \.self ) {
+                    Text("\($0) is even")
+                }
+            }
+            
+            List(staffs, id: \.self) { staff in
+                Text(staff.name)
             }
         }
     }

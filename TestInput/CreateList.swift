@@ -17,7 +17,7 @@ struct CreateList: View {
             List(0 ..< 10) { item in
                 Text("Hello, World!")
             }
-           
+            
             
             Group {
                 Text("Hello, World!")
@@ -39,20 +39,12 @@ struct CreateList: View {
                 Section(header: Text("Swift"), footer: Text("We will miss you")) {
                     Text("UITableView")
                 }
-
+                
                 Section(header: Text("SwiftUI"), footer: Text("A lot to learn")) {
                     Text("List")
                 }
             }
-            
-            
         }
-        
-        
-        
-        
-        
-        
     }
 }
 
