@@ -23,9 +23,12 @@ struct TestScoreView: View {
             Button("Bigger score!") {
                 score.numericalScore += 1
             }
+            .buttonStyle(.borderedProminent)
+            
             Button("More pieces!") {
                 score.piecesCaptured += 1
             }
+            .buttonStyle(.bordered)
         }
     }
 }
