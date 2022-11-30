@@ -38,12 +38,36 @@ let myColors: [MyColor] = [
 
 
 struct TestColorArrayView: View {
+    let columnLayout = Array(repeating: GridItem(), count: 4)
+    
     var body: some View {
         VStack {
             Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
             
+            // 呈现颜色名，以及对应的索引号
             ForEach(myColors.numbered(), id: \.element.id) { number, item in
                 Text("\(number). \(item.linkColor.description)")
+            }
+        }
+        
+        // 把数字嵌入颜色框中
+        VStack {
+            LazyVGrid(columns: columnLayout) {
+                ForEach(myColors.numbered(), id: \.element.id) { number, item in
+                    Button {
+                        print("do some")
+                    } label: {
+                        ZStack {
+                            Text("\(number)")
+                                .fontWeight(.bold)
+                                .font(.title)
+                            RoundedRectangle(cornerRadius: 30.0)
+                                .aspectRatio(1.0, contentMode: ContentMode.fit)
+                                .foregroundColor(item.linkColor)
+                                .opacity(0.5)
+                        }
+                    }
+                }
             }
         }
     }
