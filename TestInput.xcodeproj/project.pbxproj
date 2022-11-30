@@ -13,6 +13,7 @@
 		0445474C291BABCA00DDCA20 /* StepColorChange2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445474B291BABCA00DDCA20 /* StepColorChange2.swift */; };
 		046748D32935F35F005A6F40 /* ColorGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046748D22935F35F005A6F40 /* ColorGridView.swift */; };
 		046748D52936177B005A6F40 /* StepperAdjust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046748D42936177B005A6F40 /* StepperAdjust.swift */; };
+		0467491129372D40005A6F40 /* TestScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467491029372D40005A6F40 /* TestScoreView.swift */; };
 		046E53DE2919EF8A00B8684A /* TestInputApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E53DD2919EF8A00B8684A /* TestInputApp.swift */; };
 		046E53E02919EF8A00B8684A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E53DF2919EF8A00B8684A /* ContentView.swift */; };
 		046E53E22919EF8C00B8684A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046E53E12919EF8C00B8684A /* Assets.xcassets */; };
@@ -58,6 +59,7 @@
 		0445474B291BABCA00DDCA20 /* StepColorChange2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepColorChange2.swift; sourceTree = "<group>"; };
 		046748D22935F35F005A6F40 /* ColorGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGridView.swift; sourceTree = "<group>"; };
 		046748D42936177B005A6F40 /* StepperAdjust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperAdjust.swift; sourceTree = "<group>"; };
+		0467491029372D40005A6F40 /* TestScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScoreView.swift; sourceTree = "<group>"; };
 		046E53DA2919EF8A00B8684A /* TestInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		046E53DD2919EF8A00B8684A /* TestInputApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInputApp.swift; sourceTree = "<group>"; };
 		046E53DF2919EF8A00B8684A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				04EBC734292CB98400354320 /* TestBinding.swift */,
 				04DB6A40293466EF00367AF9 /* ProductsView.swift */,
 				046748D22935F35F005A6F40 /* ColorGridView.swift */,
+				0467491029372D40005A6F40 /* TestScoreView.swift */,
 				046E53E12919EF8C00B8684A /* Assets.xcassets */,
 				046E53E32919EF8C00B8684A /* Preview Content */,
 			);
@@ -316,6 +319,7 @@
 				04EBC735292CB98400354320 /* TestBinding.swift in Sources */,
 				04E35277291E5E89002F8056 /* SwiftUICalculateTest.swift in Sources */,
 				04E35275291E3A72002F8056 /* StepColorChange3.swift in Sources */,
+				0467491129372D40005A6F40 /* TestScoreView.swift in Sources */,
 				046748D32935F35F005A6F40 /* ColorGridView.swift in Sources */,
 				046E540C291A3DAE00B8684A /* StepColorChange.swift in Sources */,
 				04E35279291E6237002F8056 /* StudyTotals.swift in Sources */,

@@ -28,11 +28,11 @@ struct TestView: View {
             
             
             // 容器视图，将其子视图排列在垂直增长的网格中，仅在需要时创建项目。
-            let columns: [GridItem] = Array(repeating: .init(.fixed(30)), count: 10)
+            let columns: [GridItem] = Array(repeating: .init(.fixed(30)), count: 8)
 
             ScrollView {
                 LazyVGrid(columns: columns) {
-                    ForEach((0...100), id: \.self) {
+                    ForEach((0...50), id: \.self) {
                         Text("\($0)").background(Color.green)
                     }
                 }
