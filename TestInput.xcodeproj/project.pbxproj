@@ -31,6 +31,8 @@
 		046E5412291A44F900B8684A /* TestInputNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E5411291A44F900B8684A /* TestInputNumber.swift */; };
 		046E5414291A674F00B8684A /* TestInputNumber2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E5413291A674F00B8684A /* TestInputNumber2.swift */; };
 		04BFDB852944395C00ACC195 /* TestTupleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BFDB842944395C00ACC195 /* TestTupleView.swift */; };
+		04BFDB8729445FF500ACC195 /* TestTuple2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BFDB8629445FF500ACC195 /* TestTuple2View.swift */; };
+		04BFDB892944658F00ACC195 /* FuncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BFDB882944658F00ACC195 /* FuncButton.swift */; };
 		04C56E75293B1A1D00511E0A /* TestScoreText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C56E74293B1A1D00511E0A /* TestScoreText.swift */; };
 		04C56E77293C91F600511E0A /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C56E76293C91F600511E0A /* StateView.swift */; };
 		04C56E79293C97D700511E0A /* TestObservableObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C56E78293C97D700511E0A /* TestObservableObjectView.swift */; };
@@ -91,6 +93,8 @@
 		046E5411291A44F900B8684A /* TestInputNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInputNumber.swift; sourceTree = "<group>"; };
 		046E5413291A674F00B8684A /* TestInputNumber2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInputNumber2.swift; sourceTree = "<group>"; };
 		04BFDB842944395C00ACC195 /* TestTupleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTupleView.swift; sourceTree = "<group>"; };
+		04BFDB8629445FF500ACC195 /* TestTuple2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTuple2View.swift; sourceTree = "<group>"; };
+		04BFDB882944658F00ACC195 /* FuncButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncButton.swift; sourceTree = "<group>"; };
 		04C56E74293B1A1D00511E0A /* TestScoreText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScoreText.swift; sourceTree = "<group>"; };
 		04C56E76293C91F600511E0A /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 		04C56E78293C97D700511E0A /* TestObservableObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObservableObjectView.swift; sourceTree = "<group>"; };
@@ -186,6 +190,8 @@
 				04D16DAB294315E7000AF7F5 /* TestFunc2.swift */,
 				04D16DAD294317DC000AF7F5 /* TestFunc3.swift */,
 				04BFDB842944395C00ACC195 /* TestTupleView.swift */,
+				04BFDB8629445FF500ACC195 /* TestTuple2View.swift */,
+				04BFDB882944658F00ACC195 /* FuncButton.swift */,
 				046E53E12919EF8C00B8684A /* Assets.xcassets */,
 				046E53E32919EF8C00B8684A /* Preview Content */,
 			);
@@ -349,6 +355,7 @@
 			files = (
 				0467491329373076005A6F40 /* TestMap.swift in Sources */,
 				042342E1292B17E200F453B2 /* StoryModels.swift in Sources */,
+				04BFDB892944658F00ACC195 /* FuncButton.swift in Sources */,
 				046E540A291A38EB00B8684A /* TestView.swift in Sources */,
 				04EBC735292CB98400354320 /* TestBinding.swift in Sources */,
 				04E35277291E5E89002F8056 /* SwiftUICalculateTest.swift in Sources */,
@@ -366,6 +373,7 @@
 				042372ED292A30E9003FD81D /* TestForEach.swift in Sources */,
 				0467491B29375D41005A6F40 /* TestColorArrayView.swift in Sources */,
 				04D94D1F293D9C4900C36504 /* CalcArray.swift in Sources */,
+				04BFDB8729445FF500ACC195 /* TestTuple2View.swift in Sources */,
 				04BFDB852944395C00ACC195 /* TestTupleView.swift in Sources */,
 				04C56E79293C97D700511E0A /* TestObservableObjectView.swift in Sources */,
 				04EBC733292CB42000354320 /* TestArray.swift in Sources */,
