@@ -3,7 +3,7 @@
 //  TestInput
 //
 //  Created by 常志平 on 10/12/22.
-//  ForEach 奇偶行文本颜色不同（浅灰色、灰色）
+//  ForEach 奇偶行文本颜色不同（偶数行浅灰色、奇数较深的灰色）
 
 import SwiftUI
 
