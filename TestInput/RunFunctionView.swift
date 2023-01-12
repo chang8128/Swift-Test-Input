@@ -3,7 +3,7 @@
 //  TestInput
 //
 //  Created by 常志平 on 10/12/22.
-//  ForEach 交错显示较深的，和较浅的颜色，用奇偶行来判断
+//  ForEach 奇偶行文本颜色不同
 
 import SwiftUI
 
