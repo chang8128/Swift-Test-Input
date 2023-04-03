@@ -37,6 +37,9 @@ struct TestInputNumber: View {
                 .keyboardType(.numberPad)
                 .onReceive(Just(input)) { newValue in
                     let filtered = cast.filter {$0.count < 5 }
+                    print(filtered)
+                    
+                    // `Initialisation of immutable vale 'filtered' was never used; consider replacing with assignment '_' or remove it. if remove `print(filtered)`. Note that the `filtered` constant in the first `onReceive` closure is still necessary for the input validation logic, so it should not be removed.
                 }
         }
     }
