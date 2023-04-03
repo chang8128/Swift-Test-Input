@@ -15,7 +15,7 @@ struct Staff: Hashable {
 
 
 struct TestForEach: View {
-    let staffs = [Staff(name: "Harry Potter"), Staff(name: "Harry Potter"), Staff(name: "Herminoe Granger")]
+    let staffs = [Staff(name: "Harry Potter"), Staff(name: "Ronald Weasley"), Staff(name: "Herminoe Granger")]
     
     var body: some View {
                
